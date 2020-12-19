@@ -1,0 +1,17 @@
+주요기능
+  - header 영역과 footer 영역이 상하단에 고정 노출
+  - 컨텐츠의 최소 높이 값이 100% 인 레이아웃 형태 만들기
+
+스타일 정보
+  - header 상단고정
+  - footer 하단 고정
+  - 컨텐츠 최소 높이 값 100%
+
+주요 태그 및 속성
+  HTML
+    div
+  CSS
+    position: fixed
+    min-height
+    margin
+    padding
