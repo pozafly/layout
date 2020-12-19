@@ -2,7 +2,9 @@
   <div class="wrap">
     <div class="header">header</div>
     <div class="container">
-      <div class="content">content</div>
+      <div class="content">
+        <div class="box">box</div>
+      </div>
       <div class="aside">aside</div>
     </div>
     <div class="footer">footer</div>
@@ -20,41 +22,33 @@ body,
   background: lightgreen;
 }
 .container {
-  position: relative;
-  width: 800px;
+  display: table;
   min-height: 100%;
+  table-layout: fixed;
+  width: 800px;
   margin: -100px auto;
   padding: 100px 0;
   box-sizing: border-box;
 }
-.container:after {
-  display: block;
-  clear: both;
-  content: '';
-}
 .content {
-  float: left;
+  display: table-cell;
   width: 500px;
-  height: 300px;
   background: lightsalmon;
+  border-right: 5px solid black;
 }
 .aside {
-  float: left;
+  display: table-cell;
   width: 300px;
-  height: 300px;
   background: lightseagreen;
-}
-.aside:after {
-  position: absolute;
-  top: 100px;
-  bottom: 100px;
-  right: 300px;
-  content: '';
-  width: 5px;
-  background: #000;
 }
 .footer {
   height: 100px;
   background: lightblue;
+}
+.box {
+  width: 300px;
+  /* 이제 height 값을 container를 넘어서도 화면이 깨지지 않는다. */
+  height: 300px;
+  background: red;
 }
 </style>

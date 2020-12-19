@@ -9,11 +9,6 @@
 </template>
 
 <style>
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
 .wrap {
   min-width: 800px;
   text-align: center;
