@@ -16,3 +16,11 @@
   CSS
     display, position, border, margin, background
     table-layout :hover
+
+
+*외곽선 겹침 현상 해결
+  -각 셀이 가지고 있는 외곽선 겹침 문제는 우측 셀을 좌측으로 1px씩 이동하기 위한
+  margin-left: -1px 을 적용하면 외곽선이 두껍게 나오는 현상을 해결할 수 있다.
+  .menu_item + .menu_item .menu_link {
+    margin-left: -1px;
+  }

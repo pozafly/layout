@@ -1,0 +1,19 @@
+주요기능
+  -메인, 서브 메뉴를 갖는 2단 가로 메뉴
+  -메인, 서브 메뉴는 가로 중앙 정렬 처리
+  -메인 선택 메뉴는 볼드, 컬러 변경 처리
+  -서브 선택 메뉴는 볼드, 컬러 변경, 하단 라인 추가 처리
+
+스타일 정보
+  -메인/서브 메뉴 - 높이: 50px
+  -메인 메뉴 - 폰트: 20px/#333
+  -메인 메뉴(오버/활성화 시) - 폰트: 20px/bold/green
+  -서브 메뉴 - 폰트: 17px/#333
+  -서브 메뉴(오버/활성화 시) - 폰트: 17px/bold/green, 하단 라인: 2px/green
+
+주요 태그 및 속성
+  HTML
+    div, ul, li, a, span
+  CSS
+    position, border, margin, padding, background
+    text-align, :after, :hover
