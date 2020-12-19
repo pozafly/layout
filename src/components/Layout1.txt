@@ -1,0 +1,12 @@
+#heder, content, footer
+
+#스타일 정보
+콘텐츠 최대 가로길이 1200px
+콘텐츠 최소 가로길이 800px
+콘텐츠 내용 가운데 정렬
+
+#주요 태그 및 속성
+HTML
+  div
+CSS
+  min-width, max-width
