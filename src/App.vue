@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Layout3_1 />
+    <Layout3_2 />
   </div>
 </template>
 
 <script>
-import Layout3_1 from './components/layout/Layout3_1.vue';
+import Layout3_2 from './components/layout/Layout3_2.vue';
 
 export default {
   name: 'App',
   components: {
-    Layout3_1,
+    Layout3_2,
   },
 };
 </script>
