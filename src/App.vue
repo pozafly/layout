@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Layout3_2 />
+    <Menu1 />
   </div>
 </template>
 
 <script>
-import Layout3_2 from './components/layout/Layout3_2.vue';
+import Menu1 from './components/menu/Menu1.vue';
 
 export default {
   name: 'App',
   components: {
-    Layout3_2,
+    Menu1,
   },
 };
 </script>
@@ -20,6 +20,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 #app {
   height: 100%;

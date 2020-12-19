@@ -1,0 +1,18 @@
+주요 기능
+  -5개의 항목을 갖는 가로 메뉴
+  -메뉴 간격은 모두 동일
+  -선택 메뉴는 볼드 처리
+  -메뉴 활성화 시 배경색과 폰트 컬러 변경
+
+스타일 정보
+  -메뉴 - 전체 너비(min/max): 500px/700px
+  -메뉴 - 높이: 36px
+  -메뉴 - 폰트: 12px/#333, 외곽선: 1px/#ddd
+  -메뉴(활성화 시) - 배경색: gray, 폰트: 12px/bold/#fff, 외곽선: 1px/#555
+
+주요 태그 및 속성
+  HTML
+    div, ul, li, a
+  CSS
+    display, position, border, margin, background
+    table-layout :hover
