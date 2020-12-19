@@ -1,0 +1,14 @@
+content내용과 aside 내용의 구분선을 나누는 것이 관건.
+
+#heder, content, aside, footer
+
+#스타일 정보
+콘텐츠 가로 길이 500px
+사이드 메뉴 가로 길이 300px
+콘텐츠 최소 높이 100%
+
+#주요 태그 및 속성
+HTML
+  div
+CSS
+  float display(table, table-cell)

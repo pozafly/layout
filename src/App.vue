@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <Layout1 />
+    <Layout2 />
   </div>
 </template>
 
 <script>
-import Layout1 from './components/Layout1.vue';
+import Layout2 from './components/layout/Layout2.vue';
 
 export default {
   name: 'App',
   components: {
-    Layout1,
+    Layout2,
   },
 };
 </script>
 
-<style></style>
+<style>
+#app {
+  height: 100%;
+}
+</style>

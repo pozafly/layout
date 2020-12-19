@@ -34,7 +34,3 @@ body {
   background: lightblue;
 }
 </style>
-
-<script>
-export default {};
-</script>
