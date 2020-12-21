@@ -1,0 +1,22 @@
+주요기능
+  -3개의 탭 목록, 탭 패널
+  -탭 목록의 간격은 모두 동일
+  -선택된 탭 목록은 선택 시 볼드 처리 및 하단 라인 제거
+  -탭 패널 박스 영역 최소 높이 적용
+  -탭 패널 상단 라인 제거
+  -탭 패널 콘텐츠 선택 시 볼드 처리
+
+스타일 정보
+  -탭 목록 - 높이: 50px
+  -탭 목록 - 폰트: 16px/#999, 라인: 1px/#eee
+  -탭 목록(오버/활성화 시): 폰트: 16px/bold/#000
+  -탭 패널 - 높이(min): 350px, 라인: 1px/#eee
+  -탭 패널 콘텐츠 - 폰트: 14px/#333(1줄 말줄임)
+  -탭 패널 콘텐츠(오버 시) - 폰트 14px/bold
+
+주요 태그 및 속성
+  HTML
+    div, ul, li, a
+  CSS
+    display, position, border, margin, padding
+    table-layout, box-sizing, text-align, :hover

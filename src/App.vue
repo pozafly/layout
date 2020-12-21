@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Menu2 />
+    <Tap1 />
   </div>
 </template>
 
 <script>
-import Menu2 from './components/menu/Menu2.vue';
+import Tap1 from './components/tap/Tap1.vue';
 
 export default {
   name: 'App',
   components: {
-    Menu2,
+    Tap1,
   },
 };
 </script>
