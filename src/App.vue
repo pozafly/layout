@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Tap1 />
+    <Imglist1 />
   </div>
 </template>
 
 <script>
-import Tap1 from './components/tap/Tap1.vue';
+import Imglist1 from './components/imglist/Imglist1.vue';
 
 export default {
   name: 'App',
   components: {
-    Tap1,
+    Imglist1,
   },
 };
 </script>
